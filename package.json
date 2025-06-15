@@ -1,0 +1,40 @@
+{
+  "name": "aimm-finai-ui",
+  "version": "1.0.0",
+  "description": "Financial Sentiment Analysis UI for AIMM-FinAI system",
+  "main": "index.tsx",
+  "scripts": {
+    "dev": "next dev -p 3456",
+    "build": "next build",
+    "start": "next start -p 3456",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "lucide-react": "^0.400.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "@tailwindcss/forms": "^0.5.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2",
+    "eslint": "^8.53.0",
+    "eslint-config-next": "^14.0.0"
+  },
+  "keywords": [
+    "financial",
+    "sentiment-analysis",
+    "react",
+    "nextjs",
+    "ai",
+    "finbert"
+  ],
+  "author": "AIMM Team",
+  "license": "MIT"
+} 
