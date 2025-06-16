@@ -71,7 +71,7 @@ const StockSentimentDashboard = () => {
   const [error, setError] = useState<string>("");
   const [subscription, setSubscription] = useState<Subscription | null>(null);
 
-  const API_BASE = "http://localhost:4875";
+  const API_BASE = process.env.REACT_APP_FINAI_API_URL || "http://localhost:4875";
 
   // Check API status
   const checkApiStatus = async (): Promise<void> => {
